@@ -34,11 +34,20 @@
             margin: 0;
             margin-top: 10px;
         }
+
         nav {
             background-color: #333;
             padding: 1em;
             text-align: center;
         }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
         section {
             padding: 2em;
             background-color: #f5f5f5;
@@ -56,8 +65,8 @@
         }
 
         .service img {
-            max-width: 300px;
-            max-height: 1000px;
+            max-width: 100px;
+            max-height: 100px;
             width: auto;
             height: auto;
         }
@@ -78,36 +87,34 @@
     </header>
 
     <nav>
-    <a href="#qui-sommes-nous">Qui sommes-nous ?</a>
-    <a href="#nos-services">Nos services</a>
-    <a href="#rabouds-le-frik">Rabouds le frik</a>
-    <a href="#contact">Contact</a>
-</nav>
+        <a href="#qui-sommes-nous">Qui sommes-nous ?</a>
+        <a href="#nos-services">Nos services</a>
+        <a href="#rabouds-le-frik">Rabouds le frik</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <section>
+    <section id="qui-sommes-nous">
+        <h2>Qui sommes-nous ?</h2>
+        <p>Spécialistes de la frikass, nous sommes une équipe dévouée à vous fournir les meilleurs conseils en gestion d'argent. Notre expertise et notre engagement font de nous votre partenaire financier de confiance.</p>
+    </section>
+
+    <section id="nos-services">
         <h2>Nos Services</h2>
         <div class="services">
-            <div class="service">
-                <img src="https://github.com/wicmiti/frikass/blob/main/images.jpg?raw=true" alt="Icone Planification Budgétaire">
-                <h3>Planification Budgétaire</h3>
-                <p>Conception de plans budgétaires personnalisés pour vous aider à atteindre vos objectifs financiers.</p>
-            </div>
-            <div class="service">
-                <img src="https://github.com/wicmiti/frikass/blob/main/Sans%20titre.jpg?raw=true" alt="Icone Investissements">
-                <h3>Investissements</h3>
-                <p>Conseils pour des investissements judicieux afin de maximiser vos rendements financiers.</p>
-            </div>
-            <div class="service">
-                <img src="https://github.com/wicmiti/frikass/blob/main/39489857.jpg?raw=true" alt="Icone Épargne Retraite">
-                <h3>Épargne Retraite</h3>
-                <p>Stratégies d'épargne pour assurer un avenir financier stable pendant la retraite.</p>
-            </div>
-            <div class="service">
-                <img src="https://github.com/wicmiti/frikass/blob/main/vignette-focus.jpg?raw=true" alt="Icone Conseils Fiscaux">
-                <h3>Conseils Fiscaux</h3>
-                <p>Optimisation fiscale et conseils pour minimiser votre charge fiscale.</p>
-            </div>
         </div>
+    </section>
+
+    <section id="rabouds-le-frik">
+        <h2>Rabouds le Frik</h2>
+        <p>Si vous donnez votre argent, nous vous promettons une gestion experte et attentionnée. Rabouds le frik et profitez d'une approche personnalisée pour maximiser votre patrimoine.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour nous contacter :</p>
+        <p>Email: rabouds@lefrik.fr</p>
+        <p>Téléphone: 06 07 08 09 10</p>
+        <p>Adresse: 1 rue de la frikass, Paris 75001</p>
     </section>
 
     <footer>
